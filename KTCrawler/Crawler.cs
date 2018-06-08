@@ -22,7 +22,7 @@ namespace KTCrawler
 
         private static bool RobotsTxt = false;
         private static List<string> Disallowed = new List<string>();
-        private static bool ObservseCrawlDelay = true;
+        private static bool ObserveCrawlDelay = true;
         private static int CrawlDelay = 0;
 
 
@@ -40,7 +40,7 @@ namespace KTCrawler
         public static void Crawl(string url, bool observeCrawlDelay, Tuple<bool, int> maxPageVisits)
         {
             StartingUrl = url;
-            ObservseCrawlDelay = observeCrawlDelay;
+            ObserveCrawlDelay = observeCrawlDelay;
             LimitedPageVisits = maxPageVisits.Item1;
             RemainingPageVisits = maxPageVisits.Item1 ? maxPageVisits.Item2 : 1;
 
@@ -168,7 +168,7 @@ namespace KTCrawler
         /// <returns>HTML at location as a string</returns>
         private static string GetHtml(string url)
         {
-            if (ObservseCrawlDelay && CrawlDelay > 0)
+            if (ObserveCrawlDelay && CrawlDelay > 0)
             {
                 Console.WriteLine($"waiting for {CrawlDelay} seconds to observse robots.txt 'Crawl-delay' directive");
                 System.Threading.Thread.Sleep(CrawlDelay * 1000);
