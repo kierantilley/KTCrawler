@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTCrawler", "KTCrawler\KTCrawler.csproj", "{5CDD07F4-FA5F-4719-8684-064E95DC0B9D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "KTCrawler.Tests", "KTCrawler.Tests\KTCrawler.Tests.fsproj", "{A950FE21-63CE-4B58-9566-8B5385A55114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDD07F4-FA5F-4719-8684-064E95DC0B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDD07F4-FA5F-4719-8684-064E95DC0B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDD07F4-FA5F-4719-8684-064E95DC0B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDD07F4-FA5F-4719-8684-064E95DC0B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A950FE21-63CE-4B58-9566-8B5385A55114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A950FE21-63CE-4B58-9566-8B5385A55114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A950FE21-63CE-4B58-9566-8B5385A55114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A950FE21-63CE-4B58-9566-8B5385A55114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E266E819-759A-42C2-88D0-133B4DCD0764}
+	EndGlobalSection
+EndGlobal
